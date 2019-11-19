@@ -1,0 +1,48 @@
+* {
+  background-color: #7e8d85;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7e8d85;
+  border-bottom: 3px #684943;
+}
+.header h1 {
+  display: flex;
+  justify-content: space-around;
+  background: #7e8d85;
+  align-items: center;
+  margin: 0px;
+  font-size: 6rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+.header div.logo {
+  display: flex;
+  font-size: 30px;
+}
+.header div.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  width: 40%;
+  font-size: 6rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+}
+.header img.devlogo {
+  max-width: 10%;
+  height: auto;
+}
+.firstP {
+  border-top: 5px brown;
+}
