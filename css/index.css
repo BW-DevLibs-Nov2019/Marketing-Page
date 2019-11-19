@@ -1,3 +1,14 @@
+.button {
+  background-color: #7e8d85;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 15px;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -52,6 +63,8 @@
   border-top: 10px solid #684943;
 }
 .firstP p {
+  display: flex;
+  flex-direction: column;
   font-size: 2.5rem;
   margin-left: 14%;
   margin-right: 10%;
@@ -63,17 +76,43 @@
   width: 100%;
   height: 100%;
 }
+.firstP .buynow {
+  background-color: #7e8d85;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 15px;
+}
 .secondP {
   display: flex;
+  padding-bottom: 5%;
 }
 .secondP p {
+  display: flex;
+  flex-direction: column;
   font-size: 2.5rem;
   margin-left: 14%;
   margin-right: 10%;
   margin-top: 5%;
 }
 .secondP img {
-  margin-left: 10%;
+  height: 60vh;
+  margin-left: 14%;
+}
+.secondP .buynow {
+  background-color: #7e8d85;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 15px;
 }
 footer {
   background-color: #7e8d85;
@@ -93,4 +132,17 @@ footer logo2 {
 footer img {
   max-width: 5%;
   height: auto;
+}
+footer .links2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  width: 40%;
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  margin-left: 50%;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }
