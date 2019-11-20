@@ -73,7 +73,7 @@
 .firstP img {
   margin-right: 10%;
   margin-top: 5%;
-  width: 100%;
+  width: 200%;
   height: 100%;
 }
 .firstP .buynow {
@@ -145,4 +145,94 @@ footer .links2 {
 footer a {
   color: white;
   text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+  display: flex;
+  flex-direction: column;
+  .body {
+    background-color: #d1d5de;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 10px solid #684943;
+  }
+  section.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7e8d85;
+    flex-direction: column;
+  }
+  .header div.logo {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 1%;
+    margin-left: 5%;
+  }
+  .header div.links {
+    width: 100%;
+  }
+  .header a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+  }
+  .header h1 {
+    align-items: center;
+    margin: 0px;
+    font-size: 6rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  .firstP {
+    display: flex;
+    border-top: 10px solid #684943;
+    flex-direction: column;
+  }
+  .firstP p {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-left: 14%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  .firstP img {
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 65%;
+  }
+  .secondP {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 5%;
+  }
+  .secondP p {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-left: 14%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  .secondP img {
+    height: 60vh;
+    margin-left: 20%;
+    width: 305px;
+  }
+  footer {
+    background-color: #7e8d85;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  footer .links2 {
+    display: none;
+  }
+  footer h1 {
+    font-size: 3rem;
+  }
+  footer img {
+    width: 120%;
+  }
 }
