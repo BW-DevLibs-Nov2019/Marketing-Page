@@ -1,0 +1,239 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7e8d85;
+
+    h1{
+        display: flex;
+        justify-content: space-around;
+        background: #7e8d85;
+        align-items: center;
+        margin: 0px;
+        font-size: 6rem;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    div.logo{
+        display: flex;
+        font-size: 30px;
+        padding-bottom: 1%;
+    }
+    
+    div.links{
+        display: flex;
+        justify-content: space-around;
+        padding: 1%;
+        width: 40%;
+        font-size: 6rem;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 3rem;
+    }
+
+    img.devlogo{
+        max-width: 10%;
+        height: auto;
+    }
+}
+.body{
+    background-color: #d1d5de;
+    width: 1% 75%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 10px solid #684943;
+}
+.topP{
+    display: flex;
+    border-top: 10px solid #684943;
+
+    p{
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        margin-left: 14%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+
+    img{
+        margin-right: 10%;
+        margin-top: 5%;
+        width: 200%;
+        height: 100%;
+    }
+
+}
+.secondP{
+    display: flex;
+    padding-bottom: 10%;
+    flex-wrap: wrap;
+
+    img{
+        height: 60vh;
+        margin-left: 14%;
+        padding-top: 5%;
+    }
+}
+footer{
+    background-color: #7e8d85;
+    display: flex;
+
+    h1{
+        margin: 0px;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 4rem;
+    }
+    
+    logo2{
+        display: flex;
+        font-size: 30px;
+        padding-bottom: 1%;
+    }
+
+    img{
+        max-width: 5%;
+        height: auto;
+    }
+
+    .links2{
+        display: flex;
+        justify-content: space-around;
+        padding: 1%;
+        width: 40%;
+        font-size: 2rem;
+        font-family: 'Lato', sans-serif;
+        margin-left: 50%;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+     display: flex;
+     flex-direction: column;
+
+     .body{
+        background-color: #d1d5de;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 10px solid #684943;
+     }
+
+     section.header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #7e8d85;
+        flex-direction: column;
+    }
+
+    .header{
+        div.logo{
+            max-width: 100%;
+            height: auto; 
+            display: flex;
+            font-size: 30px;
+            padding-bottom: 1%;
+            margin-left: 5%;
+            }
+
+        div.links{
+            width: 100%;
+         }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 3rem;
+         }
+
+    }
+
+    .header h1{
+        align-items: center;
+        margin: 0px;
+        font-size: 6rem;
+        color: white;
+        font-family: 'Lato', sans-serif;
+     }
+
+    .firstP{
+        display: flex;
+        border-top: 10px solid #684943;
+        flex-direction: column;
+
+        p{
+            display: flex;
+            flex-direction: column;
+            font-size: 2rem;
+            margin-left: 14%;
+            margin-right: 10%;
+            margin-top: 5%;
+        }
+
+        img {
+            margin-left: 20%;
+            margin-top: 5%;
+            width: 65%;
+        }
+    }
+
+    .secondP{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            font-size: 2rem;
+            margin-left: 14%;
+            margin-right: 10%;
+            margin-top: 5%;
+        }
+
+        img{
+            height: 60vh;
+            margin-left: 20%;
+            width: 305px;
+        }
+    }
+
+
+    footer{
+        background-color: #7e8d85;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .links2{
+            display: none;
+        }
+
+        h1{
+            font-size: 3rem;
+        }
+
+        img{
+            width: 120%;
+        }
+
+
+
+    }
+}
